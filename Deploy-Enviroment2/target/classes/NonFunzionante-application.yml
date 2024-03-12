@@ -1,0 +1,26 @@
+#spring:
+#environment: test
+#server:
+#  port: 4000
+#
+#welcomeMsg: "Hello from Test"
+#
+#---
+#
+#environment: prod
+#server:
+#  port: 5000
+#
+#welcomeMsg: "Hello from Prod"
+environment: test
+server:
+  port: 4000
+property:
+  welcomeMsg: "Hello from Test"
+
+---
+environment: prod
+server:
+  port: 5000
+property:
+  welcomeMsg: "Hello from Prod"
